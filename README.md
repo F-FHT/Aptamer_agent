@@ -49,8 +49,8 @@ streamlit run frontend/app_ui.py
 
 ## 📸 界面演示
 
-![对话与数据看板](docs/demo1.png)
-
+![对话与数据看板](docs/demo01.png)![对话与数据看板](docs/demo02.png)
+![对话与数据看板](docs/demo03.png)![对话与数据看板](docs/demo04.png)
 ## 📜 协议
 
 MIT License
