@@ -42,10 +42,10 @@ cd Aptamer_agent
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
-⚠️ Windows 用户避坑：由于 ViennaRNA 包含 C 扩展，Windows 下直接 pip 安装可能失败。
-推荐在 WSL2 或 Conda 环境下安装（conda install -c bioconda viennarna）。
-若安装失败，可暂时注释掉 requirements.txt 中的 ViennaRNA，系统会自动降级，跳过结构预测。
 
+> ⚠️ **Windows 用户避坑**：由于 ViennaRNA 包含 C 扩展，Windows 下直接 `pip install` 可能失败。
+> 推荐在 WSL2 或 Conda 环境下安装：`conda install -c bioconda viennarna`。
+> 如果仍然安装失败，可暂时注释掉 `requirements.txt` 中的 ViennaRNA，系统会自动降级并跳过结构预测。
 
 ### 第 2 步：配置 `.env`
 
@@ -171,8 +171,15 @@ http://localhost:8501
 | LLM 报鉴权失败                       | 检查 `.env` 中的 `LLM_API_KEY`、`LLM_BASE_URL`、`LLM_MODEL_NAME` 是否匹配                        |
 
 ## 📸 界面演示
-![对话与数据看板](docs/demo01.png)![对话与数据看板](docs/demo02.png)
-![对话与数据看板](docs/demo03.png)![对话与数据看板](docs/demo04.png)
+
+![对话与数据看板](docs/demo01.png)
+
+![对话与数据看板](docs/demo02.png)
+
+![对话与数据看板](docs/demo03.png)
+
+![对话与数据看板](docs/demo04.png)
+
 ## 📜 协议
 
 MIT License
