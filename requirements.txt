@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+biopython
+viennarna
+langchain-openai
+langchain-core
+langgraph
+mcp
+streamlit
+pytest
+pytest-asyncio
+requests
+python-dotenv
+openpyxl
+xlrd
+typing-extensions
